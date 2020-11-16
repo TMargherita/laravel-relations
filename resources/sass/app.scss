@@ -1,0 +1,15 @@
+//
+
+@import "~bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap');
+
+
+// import required partials
+@import "Partials/_variables";
+@import "Partials/_common";
+@import "Partials/_mixins";
+@import "Partials/_header";
+@import "Partials/_nav-bar";
+@import "Partials/_jumbotron";
+@import "Partials/_main";
+@import "Partials/_footer";

@@ -1,0 +1,24 @@
+header {
+
+    .wrapper-top {
+        display: flex;
+        margin: auto;
+        width:1200px;
+    
+
+        .top-menu {
+            font-family: $main-font;
+            padding: 0px 30px;
+
+            .menu-dx-text {
+                font-size: $font-size-small;
+                color: $text-w;
+                font-weight: 400;
+                text-transform: uppercase;
+                padding: 0;
+            }   
+            
+        }
+    }
+
+}

@@ -1,0 +1,79 @@
+.main-footer {
+    background-image: url('https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top;
+    background-color: $color-footer-bottom;
+
+    .logo-dc {
+        background-image: url('https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/logo-background-v2.png');
+        background-position: 100%;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        padding: 40px 0;
+        width: 1252px;  
+
+        .footer-menu {
+            padding-right: 30px;
+            display: flex;
+
+            .footer-title {
+              font-family:  $main-font;
+              color:  $text-w;
+              text-transform: uppercase;
+              font-size: 20px;
+              font-weight: 600;
+            }
+
+            .lista-footer {
+                font-size: 12px;
+                color: #959595;
+                text-align: left;
+
+                .menu li {
+                    list-style: none;
+                }
+            }
+        }
+    }
+
+    .footer-bottom {
+        background-color: $color-footer-bottom;
+        height: 108px;
+        align-items: center;
+
+        .btn-footer {
+            border: 3px solid $color-bg;
+            color: #fff;
+            display: inline-block;
+            font-size: 20px;
+            height: 50px;
+            line-height: 45px;
+            margin-top: 30px;
+            text-align: center;
+            text-transform: uppercase;
+            padding: 10px 20px;
+        }
+
+        .icone {
+            list-style: none;
+            padding: 0;
+            margin:20px 0 0;
+
+            .titolo-icone {
+                color: #0282f9;
+                padding-right: 20px;
+                text-transform: uppercase;
+                font-size: 26px;
+                font-weight: 600;
+            }
+
+            .icone-small li {
+                height: 35px;
+                width: 35px;
+                display: inline-block;
+                margin-right:15px;
+            }
+        }
+    }
+}

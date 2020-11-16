@@ -1,0 +1,95 @@
+.center-main {
+    margin-bottom: 50px;
+    background-color: #fff;
+
+    .tag-comic {
+        position: relative;
+        z-index: 1;
+        height: 20px;
+        background-color: $color-bg ;
+    
+            .current {
+                position: absolute;
+                height: 50px;
+                top:-50px;
+                left: 20%;
+                background-color: $color-bg ;
+                z-index:3;
+    
+                .tag-text {
+                    font-style: $main-font;
+                    font-size:$font-size-large;
+                    color: $text-w;
+                    text-transform: uppercase;
+                    padding: 10px 15px;
+                }
+            }
+    
+            .locandina {
+                position: relative;
+                width: 1000px;
+                margin: 0 auto;
+    
+                .thumb {
+                    border: 1px solid #fff;
+                    margin-right: 35px;
+                    float: left;
+                    position: relative;
+                    border-bottom: 10px solid $color-bg;
+                    
+                    .thumb-content {
+                        border: 1px solid #fff;
+                        margin-right: 35px;
+                        float: left;
+                        position: absolute;
+                        top:-300px;
+                        left:10%;
+                        z-index: -3;
+                    }
+    
+                    .content-type {
+                        line-height: 22px;
+                        position: absolute;
+                        top: 0px;
+                        left: 0;
+                        padding: 0 10px;
+                        text-transform: uppercase;
+                        color: #fff;
+                        background: rgba(0,102,170,.9);
+                    }
+    
+                    .img {
+                        border: 0;
+                        vertical-align: middle;
+                    }
+    
+                }
+               
+            }
+        }
+    
+    .main-comic {
+    
+         background-color: $color-main;
+         display: flex;
+         padding-top: 50px;
+         padding-bottom: 50px;
+    }
+
+    .merchandise {
+        height: 150px;
+        background-color: $color-bg ;
+        padding-top:50px;
+
+        .merch-icon {
+            margin: 0px 10px 0px 0px;
+            height: 55px;
+        }
+
+        .merch-text {
+            font-size: 14px;
+            color: #fff;
+            text-transform: uppercase;
+        }
+    }
+}
